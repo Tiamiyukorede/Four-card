@@ -1,0 +1,142 @@
+
+
+
+/*
+   ============ 
+    @ TABLET VIEW
+   ============
+ */
+
+ @media screen and (min-width:765px) {
+    body .container .main-container{
+        margin: 5% auto;
+    }
+   
+    .container .main-container .head-section{
+        height: 140px;
+        margin: 0% auto;
+        width: 75%;
+    }
+    .container .main-container .head-section h1{
+        font-size: 1.5rem;
+        font-weight: 200;
+        width: 70%;
+       
+    }
+    .main-container .head-section h2{
+        font-size: 1.55rem;
+        width: 70%;
+        
+    }
+    .main-container .head-section p{
+        width: 78%;
+        font-size: 0.7rem;
+     
+    }
+    .main-container .section h3{
+        font-weight: 600;
+        font-size: 0.88rem;
+        line-height: 1.5rem;
+    }
+
+    .main-container .section p{
+        font-weight: 200;
+    font-size: 0.54rem;
+    line-height: 1rem;
+    }
+
+      .main-container {
+         display: grid;
+         gap: 1rem;
+         grid-template-columns:  1fr 1fr  1fr ;
+         grid-template-rows: 1fr 1fr 1fr;
+      }
+      
+      /* .section:first-child{
+         grid-columns: 1/3;
+      } */
+      .head-section{
+         grid-column: 1/4;
+         width: 50%;
+         /* justify-self: center;
+         align-self: center; */
+         
+      }
+      .first-section{
+         grid-row: 2;
+         justify-self: center;
+         align-self: center;
+         position: relative;
+         top: 80px;
+      }
+      .second-section{
+         grid-column: 2;
+         
+      }
+      .third-section{
+         grid-column: 2;
+      }
+      .fourth-section{
+         grid-column: 3;
+         grid-row: 2;
+         /* justify-self: center;
+         align-self: center; */
+         position: relative;
+         top: 80px;
+         
+      }
+  }
+ 
+
+
+
+
+ /*
+   ============ 
+    @ DESKTOP VIEW
+   ============
+ */
+ @media screen and (min-width:1024px) {
+    
+    body .container .main-container{
+        width: 60%;
+        margin: 5% auto;
+    }
+   
+    .container .main-container .head-section{
+        height: 140px;
+        margin: 0% auto;
+        width: 75%;
+    }
+    .container .main-container .head-section h1{
+        font-size: 1.5rem;
+        font-weight: 200;
+        width: 70%;
+       
+    }
+    .main-container .head-section h2{
+        font-size: 1.55rem;
+        width: 70%;
+        
+    }
+    .main-container .head-section p{
+        width: 78%;
+        
+        font-size: 0.7rem;
+     
+    }
+    .main-container .section h3{
+        font-weight: 600;
+        font-size: 0.88rem;
+        line-height: 1.5rem;
+    }
+
+    .main-container .section p{
+        font-weight: 200;
+    font-size: 0.54rem;
+    line-height: 1rem;
+    }
+         
+  }
+ 
+ 
